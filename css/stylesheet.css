@@ -1,0 +1,55 @@
+body {
+    background-color: gainsboro;
+    font-family: Avenir;
+}
+.nav {
+    background-color: darkgrey;
+    display: flex;
+    padding-top: 20px;
+}
+.nav-link {
+    color: white;
+    font-style: oblique;
+}
+footer {
+    display:flex;
+}
+.display-1 {
+    display:flex;
+    font-size: 20px;
+    text-align: left;
+}
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.card-header {
+    background-color: darkgrey;
+    color: white;
+}
+.card-body {
+    background-color: dimgray;
+    color: white;
+}
+
+.btn-primary {
+    background-color: darkgrey;
+    color: white;
+    border: none;
+    --bs-btn-hover-bg: black;
+}
+
+.carousel {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.card-textimp {
+    font-size: 10px;
+}
+.active {
+    font-weight: bold;
+}

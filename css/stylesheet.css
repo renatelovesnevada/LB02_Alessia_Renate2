@@ -42,7 +42,7 @@ main {
 }
 
 .carousel {
-    width: 50%;
+    width: 80%;
     display: block;
     margin: auto;
 }
@@ -52,4 +52,8 @@ main {
 }
 .active {
     font-weight: bold;
+}
+
+.intro-card {
+background: darkgrey;
 }

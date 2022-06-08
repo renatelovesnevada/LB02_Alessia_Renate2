@@ -6,6 +6,7 @@ body {
     background-color: darkgrey;
     display: flex;
     padding-top: 20px;
+    --bs-nav-link-hover-color: black;
 }
 .nav-link {
     color: white;
@@ -38,7 +39,6 @@ main {
     background-color: darkgrey;
     color: white;
     border: none;
-    --bs-btn-hover-bg: black;
 }
 
 .carousel {
@@ -56,4 +56,5 @@ main {
 
 .intro-card {
 background: darkgrey;
+    backdrop-filter: blur(5px);
 }

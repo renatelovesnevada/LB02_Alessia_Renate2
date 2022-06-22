@@ -2,6 +2,10 @@ body {
     background-color: gainsboro;
     font-family: Avenir !important;
 }
+a:hover img {
+  transform: scale(1.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 .logo{
   display: block;
   height: auto;
@@ -11,6 +15,12 @@ body {
 float:  right !important;
 
 }
+.border {
+  border-width: 5px !important;
+  border-color: grey !important;
+  border-style: solid !important;
+}
+
 a.nav-link{
   padding-top: 8px;
   padding-bottom: 8px;

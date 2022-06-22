@@ -1,6 +1,6 @@
 body {
     background-color: gainsboro;
-    font-family: Avenir !important;
+    font-family: Avenir, serif !important;
 }
 a:hover img {
   transform: scale(1.5);
@@ -34,7 +34,7 @@ a.nav-link{
   padding-bottom: 20px;
     --bs-nav-link-hover-color: black;
   font-size: 16px !important;
-  font-family: Avenir;
+  font-family: Avenir, serif;
 }
 .nav-link {
     color: white;
